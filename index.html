@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Bliss Bakery | Custom Cakes for Every Occasion</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Light pink background */
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        header {
+            background: #ff80a0; /* Rose pink for header */
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #f8bbd0 3px solid; /* Lighter pink border */
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        header h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 40px 0;
+            background: #fff;
+            border-bottom: #f8bbd0 1px solid;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .hero-section p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 20px auto;
+            color: #555;
+        }
+        .section {
+            padding: 40px 0;
+            text-align: center;
+            background: #ffebee; /* Very light pink */
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section:nth-of-type(odd) {
+            background: #fff; /* Alternate section background */
+        }
+        .section h2 {
+            color: #d81b60; /* Deep pink for headings */
+            font-size: 2.5em;
+            margin-bottom: 25px;
+        }
+        .flavor-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .flavor-list li {
+            background: #fff;
+            border: 1px solid #ffcdd2;
+            border-radius: 10px;
+            padding: 25px;
+            width: 280px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .flavor-list li:hover {
+            transform: translateY(-5px);
+        }
+        .flavor-list li strong {
+            color: #c2185b; /* Darker pink for flavor names */
+            font-size: 1.3em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .occasion-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .occasion-list li {
+            background: #f8bbd0;
+            color: #333;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.1em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e91e63; /* Bright pink for button */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background: #c2185b; /* Darker pink on hover */
+            transform: translateY(-2px);
+        }
+        .contact-info p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #d81b60;
+            font-size: 2em;
+            text-decoration: none;
+            transition: transform 0.2s ease-in-out;
+        }
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background: #ff80a0;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(255, 128, 160, 0), rgba(255, 128, 160, 0.75), rgba(255, 128, 160, 0));
+            margin: 40px auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Bake House | Freshly Baked Cupcakes, Cakes, Cookies & More</h1>
+            
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <p>Welcome to Sweet Surrender Cupcakes, where every bite is a little piece of heaven! We bake fresh, delicious cupcakes daily, using only the finest ingredients. From classic vanilla to decadent chocolate and exciting seasonal flavors, there's a cupcake for everyone.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section">
+        <div class="container">
+            <h2>Our Delicious Flavors</h2>
+            <p>Take a peek at just a few of our most popular flavors. Don't forget to check our daily specials for limited-time creations!</p>
+            <ul class="flavor-list">
+                <li>
+                    <strong>Classic Vanilla Bean:</strong> Our signature vanilla cake topped with creamy vanilla buttercream.
+                </li>
+                <li>
+                    <strong>Rich Chocolate Decadence:</strong> A moist chocolate cake generously frosted with rich chocolate ganache.
+                </li>
+                <li>
+                    <strong>Red Velvet Dream:</strong> Our famous red velvet cake with tangy cream cheese frosting.
+                </li>
+                <li>
+                    <strong>Lemon Zest Delight:</strong> Light and fluffy lemon cake with a burst of zesty lemon buttercream.
+                </li>
+                <li>
+                    <strong>Salted Caramel Bliss:</strong> Vanilla cake with a gooey salted caramel core, topped with caramel buttercream and a sprinkle of sea salt.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section">
+        <div class="container">
+            <h2>Perfect for Every Occasion</h2>
+            <ul class="occasion-list">
+                <li>Birthday Parties</li>
+                <li>Weddings & Events</li>
+                <li>Corporate Gifting</li>
+                <li>Just Because</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section">
+        <div class="container">
+            <h2>Order Now!</h2>
+            <p>Ready to indulge? Place your order for pickup or local delivery!</p>
+            <a href="#" class="cta-button">Shop Now!</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="section contact-info">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <p>Have a question or a special request? We'd love to hear from you!</p>
+            <p><strong>Phone:</strong> <a href="tel:[Your Phone Number]">[Your Phone Number]</a></p>
+            <p><strong>Email:</strong> <a href="mailto:[Your Email Address]">[Your Email Address]</a></p>
+            <div class="social-links">
+                <a href="#" target="_blank" title="Instagram">&#x1F4F7;</a> <a href="#" target="_blank" title="Facebook">&#x1F465;</a> </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sweet Surrender Cupcakes - Handcrafted Happiness in Every Bite!</p>
+        </div>
+    </footer>
+</body>
+</html>

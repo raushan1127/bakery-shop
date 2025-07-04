@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cake Bliss Bakery | Custom Cakes for Every Occasion</title>
+    <meta name="description" content="Order delicious cupcakes and custom cakes from our local bakery. Freshly baked treats perfect for birthdays, weddings, and every sweet moment.">
+    <meta name="keywords" content="cupcakes, custom cakes, birthday cakes, wedding cakes, local bakery, fresh baked goods, order cupcakes online, cake shop near me">
+
+
+    <title>Sweet Surrender Cupcakes</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -83,6 +87,9 @@
             text-align: left;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.2s ease-in-out;
+            display: flex; /* Enable flexbox for list item content */
+            flex-direction: column; /* Stack image and text vertically */
+            align-items: center; /* Center content horizontally */
         }
         .flavor-list li:hover {
             transform: translateY(-5px);
@@ -91,7 +98,16 @@
             color: #c2185b; /* Darker pink for flavor names */
             font-size: 1.3em;
             display: block;
+            margin-top: 15px; /* Space between image and text */
             margin-bottom: 10px;
+            text-align: center; /* Center the flavor name */
+        }
+        .flavor-list li img {
+            width: 150px; /* Adjust image size as needed */
+            height: 150px; /* Ensure images are square */
+            object-fit: cover; /* Crop images to fit the size */
+            border-radius: 50%; /* Make images circular */
+            border: 3px solid #ffcdd2;
         }
         .occasion-list {
             list-style: none;
@@ -176,15 +192,14 @@
 <body>
     <header>
         <div class="container">
-            <h1>The Bake House | Freshly Baked Cupcakes, Cakes, Cookies & More</h1>
-            
+            <h1>Freshly Baked Cupcakes & Custom Cakes from Your Local Bakery</h1>
+            <h2>Life's Short, Eat More Cupcakes!</h2>
         </div>
     </header>
 
     <section class="hero-section">
         <div class="container">
-            <p>Welcome to Sweet Surrender Cupcakes, where every bite is a little piece of heaven! We bake fresh, delicious cupcakes daily, using only the finest ingredients. From classic vanilla to decadent chocolate and exciting seasonal flavors, there's a cupcake for everyone.</p>
-        </div>
+            <p>At Sweet Crumbs Bakery, we specialize in freshly baked cupcakes and custom cakes made with love. Whether you're celebrating a birthday, wedding, or just craving something sweet, our desserts are crafted to delight. Order online or visit our local bakery for treats that taste as good as they look.</p>
     </section>
 
     <hr>
@@ -195,18 +210,23 @@
             <p>Take a peek at just a few of our most popular flavors. Don't forget to check our daily specials for limited-time creations!</p>
             <ul class="flavor-list">
                 <li>
+                    <img src="https://images.heb.com/is/image/HEBGrocery/Test/classic-vanilla-bean-pound-cake-recipe.jpg?v=1" alt="Classic Vanilla Bean Cupcake">
                     <strong>Classic Vanilla Bean:</strong> Our signature vanilla cake topped with creamy vanilla buttercream.
                 </li>
                 <li>
+                    <img src="https://img.freepik.com/premium-photo/this-rich-chocolate-decadence-indulgence_961875-65830.jpg" alt="Rich Chocolate Decadence Cupcake">
                     <strong>Rich Chocolate Decadence:</strong> A moist chocolate cake generously frosted with rich chocolate ganache.
                 </li>
                 <li>
+                    <img src="https://www.createwithnestle.ph/sites/default/files/srh_recipes/043edb6dd818e5bac76a5e2676184851.jpg" alt="Red Velvet Dream Cupcake">
                     <strong>Red Velvet Dream:</strong> Our famous red velvet cake with tangy cream cheese frosting.
                 </li>
                 <li>
+                    <img src="https://img.freepik.com/premium-photo/lemon-zest-delight-cupcake-photo_1036998-101426.jpg" alt="Lemon Zest Delight Cupcake">
                     <strong>Lemon Zest Delight:</strong> Light and fluffy lemon cake with a burst of zesty lemon buttercream.
                 </li>
                 <li>
+                    <img src="https://s3.amazonaws.com/grocery-project/recipe_images/salted-caramel-bliss-cake-2712189-1.jpeg" alt="Salted Caramel Bliss Cupcake">
                     <strong>Salted Caramel Bliss:</strong> Vanilla cake with a gooey salted caramel core, topped with caramel buttercream and a sprinkle of sea salt.
                 </li>
             </ul>
